@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1 nav {
+    width: 100%;
+    height: 80px;
+    background-color: #faf9f6;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.page1 nav .left {
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.page1 .left a {
+    color: #4f564f;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.page1 .left a:hover {
+    color: black;
+}
+
+.page1 .mid {
+    width: 40%;
+    color: black;
+    margin-left: 250px;
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.page1 .right a {
+    color: #4f564f;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.page1 .right a:hover {
+    color: black;
+}
+
+/* main */
+main {
+    height: 90vh;
+    display: flex;
+    background-size: cover;
+    background-color: #e7e5e2;
+    background-repeat: no-repeat;
+    background-position: 2px -100px;
+}
+
+.first {
+    display: flex;
+}
+
+.image {
+    height: 90vh;
+    margin-left: 100px;
+}
+
+.image img {
+    height: 90vh;
+}
+
+.text {
+
+    text-align: center;
+    height: fit-content;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 1.5rem;
+
+}
+
+.text span {
+    margin-left: 5px;
+
+}
+
+.text .june {
+    padding-top: 10px;
+}
+
+.june h1 {
+    font-size: 9rem;
+    font-weight: 500;
+}
+
+.june h3 {
+    padding-top: 30px;
+}
+
+.june .dollar {
+    padding-top: 30px;
+
+}
+
+.text .june button {
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+    border-top: solid #4f564f;
+    border-bottom: solid #4f564f;
+    border-radius: 40px;
+    height: 3.5rem;
+    width: 40%;
+    cursor: pointer;
+}
+
+.text .june button:hover {
+    transform: scale(1.05);
+}
